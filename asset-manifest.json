@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Japan-s-population/static/css/main.316b4394.css",
+    "main.js": "/Japan-s-population/static/js/main.bbcc45b1.js",
+    "static/js/787.dc614add.chunk.js": "/Japan-s-population/static/js/787.dc614add.chunk.js",
+    "index.html": "/Japan-s-population/index.html",
+    "main.316b4394.css.map": "/Japan-s-population/static/css/main.316b4394.css.map",
+    "main.bbcc45b1.js.map": "/Japan-s-population/static/js/main.bbcc45b1.js.map",
+    "787.dc614add.chunk.js.map": "/Japan-s-population/static/js/787.dc614add.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.316b4394.css",
+    "static/js/main.bbcc45b1.js"
+  ]
+}
