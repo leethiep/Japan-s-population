@@ -66,7 +66,7 @@ class App extends Component {
       const series_copy = this.state.series.slice();
       // チェック済みの場合はseriesから削除
       for (let i = 0; i < series_copy.length; i++) {
-        if (series_copy[i].name == this.state.prefectures[index].prefName) {
+        if (series_copy[i].name === this.state.prefectures[index].prefName) {
           series_copy.splice(i, 1);
         }
       }
