@@ -15,8 +15,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    // 47都道府県の一覧を取得
-    // API Doc: https://opendata.resas-portal.go.jp/docs/api/v1/prefectures.html
+    
     fetch('https://opendata.resas-portal.go.jp/api/v1/prefectures', {
       headers: { 'X-API-KEY': apiKey }
     })
@@ -30,7 +29,7 @@ class App extends Component {
   _changeSelection(index) {
     const selected_copy = this.state.selected.slice();
 
-    // selectedの真偽値を反転
+    // selected
     selected_copy[index] = !selected_copy[index];
 
     if (!this.state.selected[index]) {
@@ -44,17 +43,17 @@ class App extends Component {
         .then(response => response.json())
         .then(res => {
 
-          let tmp = [];
+          let value = [];
           Object.keys(res.result.data[0].data).forEach(i => {
             console.log(res.result.data[0].data[i].value)
 
-            tmp.push(res.result.data[0].data[i].value);
+            value.push(res.result.data[0].data[i].value);
 
 
           });
           const res_series = {
             name: this.state.prefectures[index].prefName,
-            data: tmp
+            data: value
 
           };
 
@@ -99,7 +98,7 @@ class App extends Component {
     const obj = this.state.prefectures;
     const options = {
       title: {
-        text: '人口増減率'
+        text: ' '
       },
       plotOptions: {
         series: {
@@ -117,7 +116,7 @@ class App extends Component {
       <div>
         <div className="header">
           <h1>人口増減</h1>
-          <h1>Japan's Population Change </h1>
+          {/* <h1>Japan's Population Change </h1> */}
           <input className='search' type="search" placeholder="Search..." />
 
 
