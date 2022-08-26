@@ -17,3 +17,6 @@ Completion time: 10 days (16/8->26/8)
 Member : Le Thi Thiep 
 Language : HTML,CSS, Javascript
 Framework : ReactJS, Hightcharts
+
+# Link demo :
+https://leethiep.github.io/Japan-s-population/
