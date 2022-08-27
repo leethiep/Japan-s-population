@@ -13,10 +13,13 @@ When you select a province, you will get the information "Population structure" 
 Automatically generate and display a line graph with X axis as Year and Y as population from Response API on population structure
 
 # Detail : 
-Completion time: 10 days (16/8->26/8)
-Member : Le Thi Thiep 
-Language : HTML,CSS, Javascript
-Framework : ReactJS, Hightcharts
+  Completion time: 10 days (16/8->26/8)
+  
+  Member : Le Thi Thiep 
+  
+  Language : HTML,CSS, Javascript
+  
+  Framework : ReactJS, Hightcharts
 
 # Link demo :
 https://leethiep.github.io/Japan-s-population/
