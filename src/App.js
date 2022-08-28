@@ -29,7 +29,7 @@ class App extends Component {
   _changeSelection(index) {
     const selected_copy = this.state.selected.slice();
 
-    // selected
+    // Invert the boolean of selected
     selected_copy[index] = !selected_copy[index];
 
     if (!this.state.selected[index]) {
@@ -64,7 +64,7 @@ class App extends Component {
         });
     } else {
       const series_copy = this.state.series.slice();
-      // チェック済みの場合はseriesから削除
+      //Remove from series if checked
       for (let i = 0; i < series_copy.length; i++) {
         if (series_copy[i].name == this.state.prefectures[index].prefName) {
           series_copy.splice(i, 1);
