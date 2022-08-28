@@ -11,7 +11,7 @@ class App extends Component {
       prefectures: {},
       series: []
     };
-    this._changeSelection = this._changeSelection.bind(this);
+    this.changeSelection = this.changeSelection.bind(this);
   }
 
   componentDidMount() {
@@ -26,7 +26,7 @@ class App extends Component {
       });
   }
 
-  _changeSelection(index) {
+  changeSelection(index) {
     const selected_copy = this.state.selected.slice();
 
     // Invert the boolean of selected
@@ -86,7 +86,7 @@ class App extends Component {
         <input
           type="checkbox"
           checked={this.state.selected[props.prefCode - 1]}
-          onChange={() => this._changeSelection(props.prefCode - 1)}
+          onChange={() => this.changeSelection(props.prefCode - 1)}
           style={{ cursor: 'pointer' }}
         />
         {props.prefName}
