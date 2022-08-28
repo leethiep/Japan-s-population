@@ -25,7 +25,7 @@ For mobile
 ![image](https://user-images.githubusercontent.com/99740462/187054493-32554481-b532-47c7-ba52-784cf6b8b38c.png)
 
 # Detail : 
-  Completion time: 45 
+  Completion time: 45 hours
   
   Member : Le Thi Thiep 
   
