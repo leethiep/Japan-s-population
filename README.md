@@ -14,13 +14,15 @@ Automatically generate and display a line graph with X axis as Year and Y as pop
 # Responsive :
 For desktop 
 ![image](https://user-images.githubusercontent.com/99740462/187054474-452455ac-a073-4ccf-8a76-b9f576576119.png)
-For mobile 
 
-![image](https://user-images.githubusercontent.com/99740462/187054493-32554481-b532-47c7-ba52-784cf6b8b38c.png)
 
 For tablet 
 
 ![image](https://user-images.githubusercontent.com/99740462/187054518-4fd962e4-f1ee-469f-a4b4-d35fcd92df0c.png)
+
+For mobile 
+
+![image](https://user-images.githubusercontent.com/99740462/187054493-32554481-b532-47c7-ba52-784cf6b8b38c.png)
 
 # Detail : 
   Completion time: 10 days (16/8->26/8)
